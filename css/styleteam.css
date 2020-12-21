@@ -1,0 +1,217 @@
+body {
+    background-image: url("../imgs/logo.jpg");
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  .parcerias {
+    float: right;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+  }
+  
+  .parcerias img{
+    padding-top: 15px;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .QA {
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.8);
+    border: 6px double rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    margin: auto;
+    margin-top: 55px;
+    width: 1250px;
+  }
+  
+  .QA h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(14, 92, 238, 0.8)
+  }
+  
+  .QA p {
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left:10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgba(255,255,255,0.6);
+      overflow-x: hidden;
+      transition: 0.8s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      color:  rgba(255,255,255,1);
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: black;
+    }
+    
+    .sidenav .closebtn {
+      color: black;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  
+    #abrbtn {
+      font-size: 30px;
+      cursor: pointer;
+      color: white;
+    }
+  
+    .exp img{
+      width: 50px;
+      animation: exps 4s ease infinite;
+    }
+  
+    .exp{
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      bottom: -25px;
+    }
+    
+    @keyframes exps{
+        0%{
+          transform: translateY(0);
+          opacity: 0;
+        }
+        50%{
+          opacity: 1;
+        }
+        70%{
+          opacity: 0.75;
+        }
+        100%{
+          transform: translateY(-80vh);
+          opacity: 0;
+        }
+    }
+  
+    .exp img:nth-child(1){
+      animation-delay: 1s;
+    }
+    .exp img:nth-child(2){
+      animation-delay: 3s;
+    }
+    .exp img:nth-child(3){
+      animation-delay: 2s;
+    }
+    .exp img:nth-child(4){
+      animation-delay: 4s;
+    }
+    .exp img:nth-child(5){
+      animation-delay: 1.5s;
+    }
+    .exp img:nth-child(6){
+      animation-delay: 5.5s;
+    }
+    .exp img:nth-child(7){
+      animation-delay: 2.5s;
+    }
+    .exp img:nth-child(8){
+      animation-delay: 4.5s;
+    }
+    .exp img:nth-child(9){
+      animation-delay: 2s;
+    }
+    .exp img:nth-child(10){
+      animation-delay: 1.5s;
+    }
+    .exp img:nth-child(11){
+      animation-delay: 5.5s;
+    }
+    .exp img:nth-child(12){
+      animation-delay: 3.5s;
+    }
+  
+  
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+  
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    
+    .column {
+      float: left;
+      width: 23%;
+      margin:5px 98px 16px 98px;
+      padding: 0 50px;
+    }
+  
+    .column2 {
+      float: left;
+      width: 23%;
+      margin-top: 10px;
+      margin-left: 338px;
+      padding: 0 50px;
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8);
+      border: 6px double rgba(255,255,255,0.8);
+      background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    }
+  
+    .card img{
+      border-bottom: 3px double white;
+      height: 290px;
+    }
+    .container {
+      padding: 0 26px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  
+    .container h2{
+      font-size: 30px;
+      color:#16ffff;
+    }
+    
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
+      font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    

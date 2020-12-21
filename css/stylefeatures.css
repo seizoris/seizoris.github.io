@@ -1,0 +1,235 @@
+body {
+    background-image: url("../imgs/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 2px;
+    background-color: rgba(0,0,0,0.3); /* 0.7 Opacity for black */
+    color: white;
+    text-align: center;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-left: 25.5%;
+    margin-right: 25.5%;
+  }
+  
+  .btn-hover {
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 65px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .btn-hover a {
+    text-decoration: none;
+  }
+  
+  .btn-hover a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+    outline: none;
+  }
+  
+  .btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }
+  .btn-hover.color-6 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+  }
+  .btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+  .btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+  .btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+
+  .caixadir1{
+    float: right;
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 255, 0.6);
+    border: 6px double rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 750px;
+    height: 180px;
+  }
+  
+  .caixadir1 h1{
+	  font-family: Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    max-width: 550px;
+    text-align: right;
+    border-bottom: 2px solid  rgba(255,255,255,0.8);
+    margin:0 auto;
+	  margin-right: 20px;
+	  margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: rgba(14, 92, 238, 0.8);
+  }
+  
+  .caixadir1 p {
+    font-family: Tahoma, Geneva, sans-serif;
+    float: right;
+    font-size: 18px;
+    margin-right: 20px;
+  	margin-top: 15px;
+  	margin-bottom: 5px;
+    text-align: justify;
+    color: white;
+  	max-width: 540px;
+  }
+
+
+  .caixadir{
+    float: right;
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 255, 0.6);
+    border: 6px double rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    margin-top: 85px;
+    margin-right: 40px;
+    width: 750px;
+    height: 180px;
+  }
+
+  .caixadir h1{
+	  font-family: Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    max-width: 550px;
+    text-align: right;
+    border-bottom: 2px solid  rgba(255,255,255,0.8);
+    margin:0 auto;
+	  margin-right: 20px;
+	  margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: rgba(14, 92, 238, 0.8);
+  }
+  
+  .caixadir p {
+    font-family: Tahoma, Geneva, sans-serif;
+    float: right;
+    font-size: 18px;
+    margin-right: 20px;
+  	margin-top: 15px;
+  	margin-bottom: 5px;
+    text-align: justify;
+    color: white;
+  	max-width: 540px;
+  }
+  
+  .caixaesq1{
+    float: left;
+    box-shadow: 4px 4px 4px 2px rgba(199, 10, 158, 0.6);
+    border: 6px double rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 750px;
+    height: 180px;
+  }
+
+  .caixaesq1 h1{
+	  font-family: Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    max-width: 550px;
+    text-align: left;
+	  border-bottom: 2px solid  rgba(255,255,255,0.8);
+	  margin-left: 20px;
+	  margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: rgba(14, 92, 238, 0.8)
+  }
+  
+  .caixaesq1 p {
+    font-family: Tahoma, Geneva, sans-serif;
+    float: left;
+    font-size: 18px;
+    margin-left:20px;
+  	margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: justify;
+    color: white;
+    max-width: 540px;
+  }
+
+  .caixaesq{
+    float: left;
+    box-shadow: 4px 4px 4px 2px rgba(199, 10, 158, 0.6);
+    border: 6px double rgba(255,255,255,0.8);
+    background-color: rgba(0,0,0,0.8); /* 0.7 Opacity for black */
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 750px;
+    height: 180px;
+  }
+  
+  .caixaesq h1{
+	  font-family: Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    max-width: 550px;
+    text-align: left;
+	  border-bottom: 2px solid  rgba(255,255,255,0.8);
+	  margin-left: 20px;
+	  margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: rgba(14, 92, 238, 0.8)
+  }
+  
+  .caixaesq p {
+    font-family: Tahoma, Geneva, sans-serif;
+    float: left;
+    font-size: 18px;
+    margin-left:20px;
+  	margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: justify;
+    color: white;
+    max-width: 540px;
+  }
+  
+  
